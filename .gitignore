@@ -1,0 +1,5 @@
+__pycache__
+*.swp
+.mypy_cache/
+.hypothesis/
+.coverage
