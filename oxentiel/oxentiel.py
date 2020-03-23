@@ -64,5 +64,5 @@ class Oxentiel(dict):
 
     def __repr__(self) -> str:
         """ Return string representation of 'Oxentiel' object. """
-        rep: str = pprint.pformat(self.settings, sort_dicts=False) # type: ignore
+        rep: str = pprint.pformat(self.settings, sort_dicts=False)  # type: ignore
         return rep
